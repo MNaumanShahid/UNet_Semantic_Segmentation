@@ -1,22 +1,22 @@
 # UNet_Semantic_Segmentation
 
-Semantic Segmentation of Carvana Dataset using U-Net Architecture
-This project implements a U-Net model for semantic segmentation of car masks in the Carvana Image Masking Challenge dataset.
+## Semantic Segmentation using UNet Architecture on Carvana Dataset
+### This project aims to perform semantic segmentation on the Carvana dataset using the UNet architecture. Semantic segmentation is the task of classifying each pixel in an image into a particular class, enabling precise object detection and localization.
 
-Project Summary
-The model achieves a high level of accuracy in segmenting car masks from images. Here are the key metrics:
+ ### Metrics
 
-Accuracy: 99.52% (87533868/87955200)
-Dice Score: 0.9887
-Model Architecture
-The project utilizes the U-Net architecture, a popular convolutional neural network (CNN) for image segmentation tasks. The U-Net design incorporates contracting and expanding paths to capture both spatial and contextual information from the input images.
+- Accuracy: 99.52%
+- Dice Score: 0.9887
 
-Dataset
-The Carvana Image Masking Challenge dataset from Kaggle is used for training and validation. This dataset consists of a large collection of images with corresponding pixel-wise annotations for car masks.
+### Output Images
+- Ground truth
+![0](https://github.com/MNaumanShahid/UNet_Semantic_Segmentation/assets/133298903/5aaedf97-201d-4fcb-8c15-74944a61a9d8)
+![1](https://github.com/MNaumanShahid/UNet_Semantic_Segmentation/assets/133298903/da6d8dc3-7d30-4107-a350-7193e716b28a)
 
-Results
-Metrics:
+- Predicted mask
+![pred_0](https://github.com/MNaumanShahid/UNet_Semantic_Segmentation/assets/133298903/6702cd81-2693-4684-8d88-2d1137a99eb6)
+![pred_1](https://github.com/MNaumanShahid/UNet_Semantic_Segmentation/assets/133298903/fbcedbf1-2cac-45cc-84e1-71cf8568babf)
 
-Accuracy: 99.52%
-Dice Score: 0.9887
-Output Images (to be added):
+
+### About the Dataset
+The Carvana dataset consists of high-resolution images of cars and corresponding pixel-level masks indicating the car pixels. This dataset is widely used for training and evaluating semantic segmentation models in the context of automotive image analysis.
